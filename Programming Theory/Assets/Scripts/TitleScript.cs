@@ -14,7 +14,7 @@ public class TitleScript : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
-    public void OnEntry()
+    public void SaveUsername()
     {
         username = inputField.GetComponent<TMP_InputField>().text;
         MainManager.instance.username = username;
