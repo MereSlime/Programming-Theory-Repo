@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RedSphere : Spheres
+public class RedSphere : Spheres //INHERITANCE
 {
-        void OnMouseDown()
+    void OnMouseDown()
     {
-        SphereTrait();
+        SphereTrait(); //ABSTRACTION
     }
 
-    public override void SphereTrait()
+    public override void SphereTrait() //POLYMORPHISM
     {
         sphereText.text = MainManager.instance.username + " clicked the red sphere";
     }

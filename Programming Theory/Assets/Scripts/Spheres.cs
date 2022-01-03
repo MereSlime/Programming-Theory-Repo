@@ -12,5 +12,4 @@ public class Spheres : MonoBehaviour
         sphereText.text = MainManager.instance.username + " clicked the sphere";
     }
 
-
 }
